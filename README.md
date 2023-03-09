@@ -1,12 +1,12 @@
 <a name="readme-top"></a>
 
-# Math Magician Project
+# Bookstore App Project
 
 # 📗 Table of Contents
 
-- [Math Magician Project](#math-magician-project)
+- [Bookstore App Project](#bookstore-app-project)
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 Math Magician Project ](#-math-magician-project-)
+- [📖 Bookstore App Project ](#-bookstore-app-project-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -19,15 +19,14 @@
     - [Run tests ](#run-tests-)
   - [👥 Authors ](#-authors-)
     - [👤 **Mert Kantaroglu**](#-mert-kantaroglu)
-    - [👤 **Josue Rushanika**](#-josue-rushanika)
   - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
   - [🙏 Acknowledgments ](#-acknowledgments-)
   - [📝 License ](#-license-)
 
-# 📖 Math Magician Project <a name="about-project"></a>
+# 📖 Bookstore App Project <a name="about-project"></a>
 
-**Math Magician is a SPA project which you can make single calculations and reading a random math related quote**
+**Bookstore App is a SPA project which you can add books and see the booklist**
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -36,8 +35,8 @@
 ### Key Features <a name="key-features"></a>
 
 - **Homepage**
-- **Calculator**
-- **Quote**
+- **Booklist**
+- **Add Book Form**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -75,8 +74,8 @@ Example commands:
 
 ```sh
   cd <desired-folder>
-  git clone https://github.com/mertkantaroglu/Math-Magician.git
-  cd math-magicians
+  git clone https://github.com/mertkantaroglu/Bookstore-App.git
+  cd Bookstore-App
 ```
 
 ### Install <a name="install"></a>
@@ -110,12 +109,6 @@ npm run test
 - GitHub: [@mertkantaroglu](https://github.com/mertkantaroglu/)
 - Twitter: [@aranelluinwe](https://twitter.com/aranelluinwe)
 - LinkedIn: [mertkantaroglu](https://www.linkedin.com/in/mert-kantaroglu/)
-
-### 👤 **Josue Rushanika**
-
-- GitHub: [@josuerushanika](https://github.com/josuerushanika)
-- Twitter: [@josuerushanika](https://twitter.com/josuerushanika)
-- LinkedIn: [josue-rushanika](https://www.linkedin.com/in/josue-rushanika-336049b3/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
