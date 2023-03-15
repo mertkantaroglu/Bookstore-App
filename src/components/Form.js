@@ -9,7 +9,7 @@ const Form = () => {
 
   const addBookHandler = (e) => {
     e.preventDefault();
-    dispatch(addBook({ id: '$(Math.random() * 100)', title, author }));
+    dispatch(addBook({ id: Math.floor(Math.random() * 1000), title, author }));
     setTitle('');
     setAuthor('');
   };
