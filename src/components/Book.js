@@ -40,7 +40,7 @@ function Book({
       </div>
       <div className="border" />
       <div className="chapter-section">
-        <h3>CURRENT CHAPTER</h3>
+        <h4>CURRENT CHAPTER</h4>
         <p>Chapter 22</p>
         <button type="button" id="chapter-btn">UPDATE PROGRESS</button>
       </div>

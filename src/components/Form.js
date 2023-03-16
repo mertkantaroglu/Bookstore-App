@@ -26,6 +26,7 @@ function Form() {
   return (
     <>
       <form>
+        <hr />
         <h3>ADD NEW BOOK</h3>
         <div className="input-field">
           <input type="text" id="title-text" name="title" placeholder="Book title" onChange={(e) => setTitle(e.target.value)} required />
