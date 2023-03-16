@@ -22,7 +22,7 @@ export const getBooks = createAsyncThunk(
 export const deleteBook = createAsyncThunk(
   'books/deleteBook',
   async (id) => {
-    const response = await axios.delete(url + id);
+    const response = await axios.delete(`${url}/${id}`);
     return response.data;
   },
 );
