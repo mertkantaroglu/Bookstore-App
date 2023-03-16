@@ -14,7 +14,7 @@ function Form() {
       item_id: uniqid(),
       title,
       author,
-      category: 'Fiction',
+      category: 'Science-Fiction',
     };
 
     dispatch(booksActions.addBook(books));
@@ -26,10 +26,12 @@ function Form() {
   return (
     <>
       <form>
-        <h3>Add New Book</h3>
-        <input type="text" name="title" placeholder="title" onChange={(e) => setTitle(e.target.value)} required />
-        <input type="text" name="author" placeholder="author" onChange={(e) => setAuthor(e.target.value)} required />
-        <button type="submit" onClick={addBookHandler}>Add Book</button>
+        <h3>ADD NEW BOOK</h3>
+        <div className="input-field">
+          <input type="text" id="title-text" name="title" placeholder="Book title" onChange={(e) => setTitle(e.target.value)} required />
+          <input type="text" id="author-text" name="author" placeholder="Book author" onChange={(e) => setAuthor(e.target.value)} required />
+          <button type="submit" onClick={addBookHandler}>ADD BOOK</button>
+        </div>
       </form>
     </>
   );

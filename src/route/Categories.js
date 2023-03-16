@@ -7,9 +7,10 @@ function Categories() {
   const status = useSelector((status) => status.category);
   return (
     <div>
-      <span>{typeof status === 'string' && status}</span>
+      <h2 id="check-span">{typeof status === 'string' && status}</h2>
       <button
         type="button"
+        id="check-btn"
         onClick={() => dispatch(checkStatus())}
       >
         Check Status
